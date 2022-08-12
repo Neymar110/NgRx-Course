@@ -879,6 +879,11 @@
   "resolved" "https://registry.npmjs.org/@istanbuljs/schema/-/schema-0.1.2.tgz"
   "version" "0.1.2"
 
+"@ngrx/effects@^9.0.0":
+  "integrity" "sha512-6Rq7FsNZK26HqYlpOGCglKLenIkVOOKE0y6D/8KXjEJ1JlZWi00fdI7poclBGjm9pvMBGXfJA8a9MKuxb/t9cA=="
+  "resolved" "https://registry.npmjs.org/@ngrx/effects/-/effects-9.0.0.tgz"
+  "version" "9.0.0"
+
 "@ngrx/store-devtools@^9.0.0":
   "integrity" "sha512-Vj8sj8GclbSbnYCS8eqZXTOYDdip1nnjKhkYClUg2oFPh67haaCmvh7TXITnX8PpgDtj5akF84Xw9/1HRiG8mg=="
   "resolved" "https://registry.npmjs.org/@ngrx/store-devtools/-/store-devtools-9.0.0.tgz"
