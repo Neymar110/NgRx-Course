@@ -1,0 +1,10 @@
+<ul class="tag-list">
+  <li
+    *ngFor="let tag of tagsProps"
+    class="tag-pill tag-outline"
+    [class.colorChange]="alternate"
+    [class.tag-default]="!alternate"
+  >
+    {{ tag }}
+  </li>
+</ul>
