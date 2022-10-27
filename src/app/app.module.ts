@@ -11,9 +11,13 @@ import { environment } from 'src/environments/environment';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ArticleModule } from './article/article.module';
+import { CreateArticleModule } from './article/createArticle/createArticle.module';
 import { GLobalFeedModule } from './globalFeed/globalFeed.module';
 import { AuthInterceptor } from './shared/services/authInterceptor.service';
 import { PersistenceService } from './shared/services/persistence.service';
+import { TagFeedModule } from './tagFeed/tagFeed.module';
+import { YourFeedModule } from './yourFeed/yourFeed.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -30,7 +34,11 @@ import { PersistenceService } from './shared/services/persistence.service';
     }),
     EffectsModule.forRoot([]),
     TopBarModule,
-    GLobalFeedModule
+    GLobalFeedModule,
+    YourFeedModule,
+    TagFeedModule,
+    CreateArticleModule,
+    ArticleModule
   ],
   providers: [PersistenceService, 
     {

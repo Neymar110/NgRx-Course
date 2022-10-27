@@ -9,6 +9,6 @@ import { tagListComponent } from './components/tagList/tagList.component';
     exports:[tagListComponent]
 })
 
-export class tagListModule {
+export class TagListModule {
     
 }
